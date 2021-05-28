@@ -1,0 +1,28 @@
+.timer {
+  display: flex;
+  align-items: flex-end;
+
+  .timer-minutes {
+    background: rgb(199, 196, 196);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .timer-seconds {
+    background: rgb(199, 196, 196);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  span {
+    margin: 0 0.3rem;
+  }
+}

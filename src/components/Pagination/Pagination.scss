@@ -1,0 +1,32 @@
+.pagination-wrapper {
+  position: absolute;
+  display: flex;
+  margin-top: 1rem;
+
+  button {
+    margin: 0 2px;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #224c86;
+    color: white;
+    border: 1px;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      background-color: #061c39;
+      transform: translateY(-3px);
+    }
+
+    &:active {
+      background-color: #7a9fd3;
+    }
+  }
+
+  .focused {
+    background-color: #7a9fd3;
+  }
+}
